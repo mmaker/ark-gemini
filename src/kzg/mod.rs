@@ -94,7 +94,7 @@ pub use time::CommitterKey;
 #[cfg(test)]
 pub mod tests;
 
-use ark_ec::{pairing::Pairing, AffineRepr, VariableBaseMSM};
+use ark_ec::{pairing::Pairing, VariableBaseMSM};
 use ark_ff::{Field, One, Zero};
 use ark_poly::{univariate::DensePolynomial, DenseUVPolynomial};
 use ark_serialize::*;
